@@ -1,0 +1,97 @@
+// number of questions to ask
+var questions_nb=5;
+
+// reset score
+var score=0;
+
+// define questions and answers
+var questions = [
+    {
+    "text": "Une personne infectée par le VIH a obligatoirement le Sida ?",
+    "time": 15,
+    "answers": [ 
+            {
+                "text" : "Vrai",
+                "comment": "Une personne a le Sida uniquement lorsque son système immunitaire a été très affaibli par le VIH.",
+                "correct": false,
+            },
+            {
+                "text" : "Faux",
+                "comment": "Une personne a le Sida uniquement lorsque son système immunitaire a été très affaibli par le VIH.",
+                "correct": true,
+            },
+        ]
+    },    
+    {
+    "text": "Avec les multi thérapies, les personnes séropositives :",
+    "time": 15,
+    "answers": [ 
+            {
+                "text" : "sont complètement guéries.",
+                "comment": "Une personnes séropositive doit prendre un traitement régulièrement et à vie.",
+                "correct": false,
+            },
+            {
+                "text" : "Doivent prendre un médicament de temps en temps.",
+                "comment": "Une personnes séropositive doit prendre un traitement régulièrement et à vie.",
+                "correct": false,
+            },
+            {
+                "text" : "Doivent prendre toute leur vie un traitement.",
+                "comment": "Ce traitement doit également être pris très régulièrement.",
+                "correct": true,
+            },
+        ]
+    },
+    {
+    "text": "Que signifie le terme 'séropositif' ?",
+    "time": 15,
+    "answers": [ 
+            {
+                "text" : "Que l’on est porteur du VIH.",
+                "comment": "Il faut que cette personne prenne ensuite un traitement à vie et se protège lors de relations sexuelles.",
+                "correct": true,
+            },
+            {
+                "text" : "Que l’on n’est pas porteur du VIH.",
+                "comment": "Une personnes séropositive est porteuse du VIH. Elle doit prendre un traitement régulièrement et à vie, et se protèger lors de relations sexuelles.",
+                "correct": false,
+            },
+            {
+                "text" : "Qu’on a un groupe sanguin positif.",
+                "comment": "Une personnes séropositive est porteuse du VIH. Elle doit prendre un traitement régulièrement et à vie, et se protèger lors de relations sexuelles.",
+                "correct": false,
+            },
+        ]
+    },
+]
+
+
+/*
+    {
+    "text" : "",
+    "time": 15,
+    "answers": [ 
+            {
+                "text" : "",
+                "comment": "",
+                "correct": false,
+            },
+            {
+                "text" : "",
+                "comment": "",
+                "correct": false,
+            },
+            {
+                "text" : "",
+                "comment": "",
+                "correct": false,
+            },
+            {
+                "text" : "",
+                "comment": "",
+                "correct": false,
+            },
+        ]
+    },
+*/

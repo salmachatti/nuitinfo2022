@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz ~ EduSida ~ FCRM &amp; Fongwama</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/quiz_style.css" rel="stylesheet" />
+    <script type="text/javascript" src="data/quiz_questions.json"></script>
+    <script type="text/javascript" src="js/quiz_engine.js"></script>
+</head>
+<body onload="quiz_start();">
+    <header class="jumbotron">
+		<a href="index.html">
+			<img  id= "myheader" src="img/1245.jpg" alt="sidanet" class="center-block" />
+		</a>
+    </header>
+    <section class="container">
+        <h1>Quiz</h1>
+        <p>
+        Pour chacune des <span id="welcome_questions_nb"></span> questions suivantes, choisissez la réponse correcte.
+        </p>
+        <p>
+        Plus vous serez rapide, plus vous marquerez des points !
+        </p>
+        <form action="quiz_play.html">
+            <button class="btn btn-primary center-block" type="submit">Commencer la partie</button>
+        </form>
+    </section>
+	<footer>
+        <p>The Avengers-ISITCOM</p>  
+	</footer>
+</body>
+</html>

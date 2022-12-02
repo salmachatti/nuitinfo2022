@@ -1,0 +1,161 @@
+.container{
+  margin: 2px;
+}
+
+section{
+    padding-bottom: 10px;
+    /*overflow: scroll;*/
+}
+#my_canvas_container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+}
+#my_canvas{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+#canvas_belt{
+    position: relative;
+    display: inline-block;
+}
+
+#question{
+    font: bold 12pt arial;
+    color: #6495ED;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#message_fin{
+    font: bold 12pt arial;
+    text-align: center;
+    color:#727272;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+#extra_infos{
+
+    padding: 2px 0px 2px 0px;
+    float: left;
+    display: inline-block;
+}
+
+#extra_cursor_pos{
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px 0px 2px 0px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#ic_image_timer{
+    width: 24px;
+    height: 24px;
+    font: bold 12pt arial;
+    color: #6495ED;
+}
+#question_timer_value_staked,#question_timer_value,#my_slash{
+    font: bold 12pt arial;
+    color: #6495ED;
+    vertical-align: middle;
+}
+.erreurs_space{
+    margin-left: 10px;
+}
+#valErreur{
+    color: red;
+}
+#valPara{
+           /*limegreen*/
+    color: #32cd32;
+}
+#val_total_para{
+    color: #32cd32;
+}
+#ic_image_timer{
+    margin-right: 2px;
+}
+
+#question_timer{
+    display: inline-block;
+    font: bold 12pt arial;
+    padding: 3px 0px 3px 0px;
+    margin-right: 10px;
+}
+#question, #question_score, #question_next_replay {
+    display: inline-block;
+    font: bold 12pt arial;
+    color: #6495ED;
+    padding: 3px 0px 3px 0px;
+}
+
+.buttons_container{
+    margin-bottom: 60px; 
+}
+.my_btn{
+    display: inline-block;
+    float: left;
+    width: 49%;
+    height: 35px;
+}
+
+.my_btn_right{
+   margin-left: 1.5%;
+   position: relative;
+}
+#question_timer, #question_next_replay {
+    float: right;
+}
+
+#question_text {
+    font-weight: bold;
+}
+
+#question_body {
+    clear: both;
+}
+
+#question_footer {
+    margin-top: 5px;
+}
+
+.valides{
+    display  : inline-block;
+    position : absolute;
+    cursor :help;
+    border: 2px solid green;
+    border-radius: 2px;
+    z-index: 102;
+}
+
+@media (max-width: 500px  ) {
+    .valides{
+
+        border: 1px solid green;
+        border-radius: 1px;
+        z-index: 102;
+    }
+
+    .buttons_container{
+        margin-bottom: 0px;
+    }
+
+    /*
+    #my_canvas{
+        overflow-x: scroll;
+    }*/
+
+}
+@media (max-height: 660px  ) {
+    section{
+        padding-bottom: 40px;
+    }
+}
